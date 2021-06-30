@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contanier {
+    width: 60%;
+    height: 550px;
+    margin: 100px auto;
+    border: 1px solid rgb(181, 136, 79);
+    background-color: rgb(236, 225, 209);
+}
+
+.left {
+    float: left;
+    width: 40%;
+    margin: 30px;
+}
+
+.left_top {
+    text-align: center;
+}
+
+.left_bottom {
+    margin-top: 10px;
+    height: 160px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.left_bottom>ul>li {
+    font-size: 16px;
+}
+
+a {
+    color: rgb(181, 136, 79);
+    text-decoration: none;
+    /* 连接底部的样式，默认是underline */
+}
+
+.right {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 25px auto;
+    height: 500px;
+    line-height: 30px;
+    text-align: center;
+}
+
+ul>li {
+    text-align: center;
+    font-size: 16px;
+}
+
+audio:focus {
+    outline: none;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(255, 199, 126);
+    border: 0;
+    /* 取消难看的边框 */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px #ccc;
+}
+
+input:focus {
+    outline: none;
+    /* 去掉点击时候的外边框 */
+}
